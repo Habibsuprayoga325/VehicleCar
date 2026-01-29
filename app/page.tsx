@@ -27,7 +27,7 @@ export default function Home() {
             <Button size="lg" className="bg-[#F3D88D] text-[#222222] hover:bg-white hover:scale-105 transition-all font-black px-10 py-8 text-xl rounded-full shadow-2xl" asChild>
               <a href="#fleet">BOOKING SEKARANG</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-white/30 text-white backdrop-blur-md hover:bg-white/10 hover:border-white font-bold px-10 py-8 text-xl rounded-full transition-all" asChild>
+            <Button size="lg" className="bg-white text-[#222222] hover:bg-[#F3D88D] transition-all font-black px-10 py-8 text-xl rounded-full shadow-2xl border-none" asChild>
               <a href="#promos">LIHAT PROMO</a>
             </Button>
           </div>
