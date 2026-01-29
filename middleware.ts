@@ -21,6 +21,7 @@ export default withAuth(
                     req.nextUrl.pathname === "/login" ||
                     req.nextUrl.pathname === "/register" ||
                     req.nextUrl.pathname.startsWith("/api/auth") ||
+                    req.nextUrl.pathname.startsWith("/api/register") ||
                     req.nextUrl.pathname.startsWith("/images");
 
                 if (isPublicPage) return true;
