@@ -15,19 +15,19 @@ export default function Home() {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="relative z-10 text-center space-y-8 px-4 max-w-5xl">
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none animate-in fade-in slide-in-from-bottom-8 duration-700">
+        <div className="relative z-10 text-center space-y-6 md:space-y-8 px-6 max-w-5xl">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] animate-in fade-in slide-in-from-bottom-8 duration-700">
             Sewa Kendaraan <span className="text-[#F3D88D]">Delian</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed animate-in fade-in slide-in-from-bottom-12 duration-1000">
+          <p className="text-base sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed animate-in fade-in slide-in-from-bottom-12 duration-1000">
             Penyedia layanan transportasi premium terbaik di kelasnya.
             Armada terbaru, harga bersahabat, dan layanan 24/7.
           </p>
-          <div className="flex flex-wrap justify-center gap-6 pt-6 animate-in fade-in slide-in-from-bottom-16 duration-1000 delay-300">
-            <Button size="lg" className="bg-[#F3D88D] text-[#222222] hover:bg-white hover:scale-105 transition-all font-black px-10 py-8 text-xl rounded-full shadow-2xl" asChild>
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 pt-4 sm:pt-6 animate-in fade-in slide-in-from-bottom-16 duration-1000 delay-300">
+            <Button size="lg" className="bg-[#F3D88D] text-[#222222] hover:bg-white hover:scale-105 active:scale-95 transition-all font-black px-10 py-7 md:py-8 text-lg md:text-xl rounded-full shadow-2xl" asChild>
               <a href="#fleet">BOOKING SEKARANG</a>
             </Button>
-            <Button size="lg" className="bg-white text-[#222222] hover:bg-[#F3D88D] transition-all font-black px-10 py-8 text-xl rounded-full shadow-2xl border-none" asChild>
+            <Button size="lg" className="bg-white text-[#222222] hover:bg-[#F3D88D] hover:scale-105 active:scale-95 transition-all font-black px-10 py-7 md:py-8 text-lg md:text-xl rounded-full shadow-2xl border-none" asChild>
               <a href="#promos">LIHAT PROMO</a>
             </Button>
           </div>
